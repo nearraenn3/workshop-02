@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    image: nearraenn3/product-app:0.0.0
+    ports:
+      - "9999:80"
